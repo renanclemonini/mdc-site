@@ -23,6 +23,7 @@
         <ul>
             <li><a href="index.php" target="_self">Home</a></li>
             <li><a href="adm.php">Administração</a></li>
+            <li><a href="agendamento-inicio.php" target="_self">Agendamento</a></li>
             <li><a href="https://www.instagram.com/mariliadicredico.bioestetica/" target="_blank">Instagram</a></li>
             <li><a href="micropig.php">Micropigmentação</a></li>
         </ul>

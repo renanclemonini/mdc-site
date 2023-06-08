@@ -143,7 +143,7 @@ iframe{
 
 article > a{
     font-size: var(--fontsize-p-mobile);
-    color: black;
+    color: var(--cor2);
 }
 
 a.wpp{

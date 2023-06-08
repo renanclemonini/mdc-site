@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/mobile-first.css">
     <link rel="stylesheet" href="css/general.css">
     <script src="./js/index.js"></script>
+    <?php include './bs4.php' ?>
     <title>Marília Di Credico - Home</title>
 </head>
 <body onresize="mudouTamanho()">
@@ -21,7 +22,7 @@
     <menu id="itensMenu">
         <ul>
             <li><a href="adm.php" target="_self">Administração</a></li>
-            <li><a href="agendamento.php" target="_self">Agendamento</a></li>
+            <li><a href="agendamento-inicio.php" target="_self">Agendamento</a></li>
             <li><a href="https://www.instagram.com/mariliadicredico.bioestetica/" target="_blank">Instagram</a></li>
             <li><a href="micropig.html" target="_self">Micropigmentação</a></li>
             <li><a href="produtos.html" target="_self">Produtos</a></li>

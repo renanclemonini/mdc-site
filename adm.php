@@ -22,6 +22,7 @@
     <menu id="itensMenu">
         <ul>
             <li><a href="index.php" target="_self">Home</a></li>
+            <li><a href="agendamento-inicio.php" target="_self">Agendamento</a></li>
             <li><a href="https://www.instagram.com/mariliadicredico.bioestetica/" target="_blank">Instagram</a></li>
             <li><a href="micropig.php">Micropigmentação</a></li>
             <li><a href="produtos.php">Produtos</a></li>
@@ -30,18 +31,19 @@
     <main id="mainAdm">
         <article>
             <h2>Administração</h2>
-            <form id="formulario" action="#" method="post">
+            <form id="formulario" action="./ctr-model/admLogin.php" method="post">
+                <input type="hidden" name="log">
                 <div id="formulario2">
                     <div id="itensFormulario">
-                        <label for="iEmail">Usuário: </label>
-                        <input type="email" name="email" id="iEmail" placeholder="Seu E-Mail" size="20" maxlength="30">
+                        <label for="iLogin">Login: </label>
+                        <input type="text" name="txtLogin" id="iLogin" placeholder="Login" size="20" maxlength="30">
                     </div>
                     <div id="itensFormulario">
                         <label for="iSenha">Senha: </label>
-                        <input type="password" name="senha" id="iSenha" placeholder="Sua Senha" size="20">
+                        <input type="password" name="txtSenha" id="iSenha" placeholder="Senha" size="20">
                     </div>
                     <div id="itensFormulario">
-                        <input id="itemSubmit" type="submit" value="Enviar">
+                        <input id="itemSubmit" type="submit" value="Entrar">
                     </div>
                     <div id="itensFormulario">
                         <p><a href="#">Esqueceu sua senha?</a></p>
