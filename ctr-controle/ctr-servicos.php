@@ -6,7 +6,7 @@
     if(isset($_POST['insert'])) {
         $nome = $_POST['txtNome'];
         if($objServicos->insert($nome)) {
-            $objServicos->redirect('../servicos-adm.php');
+            $objServicos->redirect('../adm-servicos.php');
         }
     }
 
@@ -14,14 +14,14 @@
         $nome = $_POST['txtNome'];
         $id = $_POST['txtId'];
         if($objServicos->update($nome, $id)) {
-            $objServicos->redirect("../servicos-adm.php");
+            $objServicos->redirect("../adm-servicos.php");
         }
     }
     
     if(isset($_POST['delete'])) {
         $id = $_POST['txtId'];
         if($objServicos->delete($id)) {
-            $objServicos->redirect("../servicos-adm.php");
+            $objServicos->redirect("../adm-servicos.php");
         }
     }
 ?>

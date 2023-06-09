@@ -10,7 +10,6 @@ class dataBase{
         try{
             $this->connexao = new PDO('mysql:host=localhost; dbname=mdcsite;',$this->userName, $this->senha);
             $this->connexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            echo "Conectado";
         }catch(PDOException $e){
             echo $e->getMessage();
         }

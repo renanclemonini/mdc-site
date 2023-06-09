@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/adm.css">
     <?php include './bs4.php' ?>
     <script src="./js/index.js"></script>
-    <title>Marília Di Credico - Administração</title>
+    <title>Marília Di Credico - Agendamentos</title>
     <style>
         .btnAlign{
             display: flex;
@@ -46,7 +46,7 @@
             <p>Nesta área você pode agendar o melhor dia para vir ao nosso estabelecimento, por favor realize o cadastro clicando em 'Novo Cliente' primeiro antes de agendar. Caso já esteja cadastrado é só seguir para a opção 'Novo Agendamento'</p>
             <div class="btnAlign">
                 <a href="./cadastro-cliente.php" class="btn btnDesign">Novo Cliente</a>
-                <a href="./novo-agendamento.php" class="btn btnDesign">Novo Agendamento</a>
+                <a href="./agendamento-novo.php" class="btn btnDesign">Novo Agendamento</a>
             </div>
         </article>
     </main>

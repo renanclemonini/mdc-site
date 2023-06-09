@@ -15,15 +15,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Clientes</title>
+    <title>Agendamentos</title>
 </head>
 <body>
     <header><?php include'./nav.php' ?></header>
-
     <div class="container">
         <h2 class="my-3">Agendamentos</h2>
         <p>Lista de Agendamentos Realizados.</p>
@@ -40,7 +40,7 @@
                 <tr>
                     <th class="text-center">Cliente</th>
                     <th class="text-center">Serviço</th>
-                    <th class="text-center">Data</th>
+                    <!-- <th class="text-center">Data</th> -->
                     <th class="text-center">Horário</th>
                     <th class="text-center">Editar</th>
                     <th class="text-center">Deletar</th>
@@ -76,9 +76,9 @@
                             <td>
                                 <?php echo $objAgendamentos['Servico']; ?>
                             </td>
-                            <td>
-                                <?php echo $objAgendamentos['Data']; ?>
-                            </td>
+                            <!-- <td>
+                                <?php #echo $objAgendamentos['Data']; ?>
+                            </td> -->
                             <td>
                                 <?php echo $objAgendamentos['Horario']; ?>
                             </td>
@@ -91,7 +91,7 @@
                                 data-cliente="<?php echo $objAgendamentos['Cliente']; ?>"
                                 data-idServico="<?php echo $objAgendamentos['idServico']; ?>"
                                 data-servico="<?php echo $objAgendamentos['Servico']; ?>"
-                                data-agendamento="<?php echo $objAgendamentos['Data']; ?>"
+                                data-agendamento="<?php #echo $objAgendamentos['Data']; ?>"
                                 data-horario="<?php echo $objAgendamentos['Horario']; ?>">
                                 <img src="./imagens/database_edit.png" alt="editar"></button> 
                             </td>
@@ -136,7 +136,9 @@
                                     $stmt->execute();
                                     while($objClientes = $stmt->fetch(PDO::FETCH_ASSOC)){
                                 ?>
-                                <option value="<?php echo $objClientes['id'] ?>"><?php echo $objClientes['nome'] ?></option>
+                                <option value="<?php echo $objClientes['id'] ?>">
+                                    <?php echo $objClientes['nome'] ?>
+                                </option>
                                 <?php 
                                     }
                                 ?>

@@ -28,44 +28,40 @@
             <li><a href="produtos.html" target="_self">Produtos</a></li>
         </ul>
     </menu>
-    <main>
-        <article>
-            <h2>Biografia</h2>
-
-            <p>Marilia Di Credico nasceu em 23 de março de 1987, baiana do bairro de Portão em Lauro de Freitas, começou com Design em Sobrancelhas no ano de 2015.</p>
-            <p>Por intemédio de familiares, se firmou na área de beleza se tornando especialista em sobrancelhas e transformações de estética facial como maquiagem, micropigmentação de sobrancelhas, olhos e lábios, revitalização e neutralização labial, extensão em cílios, camuflagem e despigmentação. A arte da colorimetria fez com que se apaixonasse por estes efeitos tonalizantes que realçam a beleza de suas clientes, utilizando as técnicas esfumadas e degrade, procura sempre a consciente utilização do tom de pigmento que se aproxime ao tom de pele.</p>
-            <p>Durante estes anos a partir de 2015, Marilia vem se aprimorando e adquirindo mais conhecimento através de muito estudo e experiências vividas, onde criou técnicas que são simples e fáceis de se aplicar e que vem gerando frutos que são confiança e segurança de suas clientes perante ao trabalho de excelencia feito.</p>
-
-            <img src="imagens/marytransp200.png" alt="Mary">
-            <br>
-            <hr>
-
-            <h2>Serviços Oferecidos</h2>
-            <ul>
-                <li>Design de Sobrancelhas (Com e Sem Henna)</li>
-                <li>Extensão em Cílios Fio a Fio (variadas técnicas)</li>
-                <li>Micropigmentação de Sobrancelhas, Lábios e Olhos</li>
-                <li>Despigmentação</li>
-                <li>Correção de Micropigmentação Antiga</li>
-                <li>Tratamento para redução de flacidez facial</li>
-                <li>Remoção de Dermatose Papulosa Nigra</li>
-            </ul>
-
-            <hr>
-            <h2>Localização</h2>
-
-            <div class="map">
-                <p>Estamos localizados no Evo Empresarial - 6º Andar Sala 37:</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15557.58734089737!2d-38.3041464!3d-12.8821851!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa782f5e2fa53f7b2!2sMar%C3%ADlia%20Di%20Credico%20-%20Especialista%20em%20Sobrancelhas%20Unissex!5e0!3m2!1spt-BR!2sbr!4v1653165193764!5m2!1spt-BR!2sbr" width="780" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <hr>
-
-            <div class="contato">
-                <h2>Contato</h2>
-                <p>Pedimos encarecidamente que dêem preferência pelo contato via whatsapp <a class="wpp" href="https://api.whatsapp.com/send?1=pt_BR&phone=5571987786846" target="_blank">71 98778-6846&#x1F517</a></p>
-            </div>
-        </article>
-    </main>
+    <div class="main">
+        <main>
+            <article>
+                <h2>Biografia</h2>
+                <p>Marilia Di Credico nasceu em 23 de março de 1987, baiana do bairro de Portão em Lauro de Freitas, começou com Design em Sobrancelhas no ano de 2015.</p>
+                <p>Por intemédio de familiares, se firmou na área de beleza se tornando especialista em sobrancelhas e transformações de estética facial como maquiagem, micropigmentação de sobrancelhas, olhos e lábios, revitalização e neutralização labial, extensão em cílios, camuflagem e despigmentação. A arte da colorimetria fez com que se apaixonasse por estes efeitos tonalizantes que realçam a beleza de suas clientes, utilizando as técnicas esfumadas e degrade, procura sempre a consciente utilização do tom de pigmento que se aproxime ao tom de pele.</p>
+                <p>Durante estes anos a partir de 2015, Marilia vem se aprimorando e adquirindo mais conhecimento através de muito estudo e experiências vividas, onde criou técnicas que são simples e fáceis de se aplicar e que vem gerando frutos que são confiança e segurança de suas clientes perante ao trabalho de excelencia feito.</p>
+                <img src="imagens/marytransp200.png" alt="Mary">
+                <br>
+                <hr>
+                <h2>Serviços Oferecidos</h2>
+                <ul>
+                    <li>Design de Sobrancelhas (Com e Sem Henna)</li>
+                    <li>Extensão em Cílios Fio a Fio (variadas técnicas)</li>
+                    <li>Micropigmentação de Sobrancelhas, Lábios e Olhos</li>
+                    <li>Despigmentação</li>
+                    <li>Correção de Micropigmentação Antiga</li>
+                    <li>Tratamento para redução de flacidez facial</li>
+                    <li>Remoção de Dermatose Papulosa Nigra</li>
+                </ul>
+                <hr>
+                <h2>Localização</h2>
+                <div class="map">
+                    <p>Estamos localizados no Evo Empresarial - 6º Andar Sala 37:</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15557.58734089737!2d-38.3041464!3d-12.8821851!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa782f5e2fa53f7b2!2sMar%C3%ADlia%20Di%20Credico%20-%20Especialista%20em%20Sobrancelhas%20Unissex!5e0!3m2!1spt-BR!2sbr!4v1653165193764!5m2!1spt-BR!2sbr" width="780" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <hr>
+                <div class="contato">
+                    <h2>Contato</h2>
+                    <p>Pedimos encarecidamente que dêem preferência pelo contato via whatsapp <a class="wpp" href="https://api.whatsapp.com/send?1=pt_BR&phone=5571987786846" target="_blank">71 98778-6846&#x1F517</a></p>
+                </div>
+            </article>
+        </main>
+    </div>
     <footer>
         <p>Site Desenvolvido por Renan Clemonini &reg;</p>
     </footer>

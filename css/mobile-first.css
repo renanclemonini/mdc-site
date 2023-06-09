@@ -10,6 +10,7 @@
     --cor0: #ffffff;
     --cor1: #f5f50bee;
     --cor2: #000000;
+    --cor3: #BAAC96;
     
     --fonte-titulo: 'Cinzel', serif;
     --fonte-subtitulo: 'Akshar', sans-serif;
@@ -32,6 +33,7 @@
 header#container{
     height: 180px;
     background-image: url(../imagens/logocompleta_mary.png);
+    background-color: var(--cor3);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 250px;
